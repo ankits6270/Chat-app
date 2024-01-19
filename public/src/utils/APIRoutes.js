@@ -1,4 +1,3 @@
-console.log(process.env.REACT_APP_SERVER_URL);
 export const host = process.env.REACT_APP_SERVER_URL;
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
